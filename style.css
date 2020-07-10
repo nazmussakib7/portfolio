@@ -75,11 +75,13 @@ section{
 }
 
 .work-photos{
-    margin-left: 382px;  
+  float: left;  
+  margin-left:20%;
+  
 }
 
 .work-photos img{
-    width:300px;
+    width:25%;
 
 }
 .latest-work{
