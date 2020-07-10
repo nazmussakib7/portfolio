@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    font-size: 52px;
+}
+p{
+    font-size: 18px;
+    /* text-align: justify; */
+}
+
+section{
+    height: 600px;
+    padding-bottom:150px;
+    
+   
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+}
+.intro-text{
+    padding-top: 121px;
+    padding-left: 151px;
+}
+
+.text-highlight{
+    color:rgb(255, 71, 117)
+}
+.half-width{ 
+   
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+ width:100%;
+    
+}
+.link-highlight{
+    text-decoration: none;
+    background-image: linear-gradient(pink,red);
+    padding: 16px 40px;
+    color: white;
+    border-radius: 9px;   
+    line-height: 57px;
+}
+.single-experience{
+    color:orange;
+}
+.experience-area1{
+    box-shadow:10px 10px 40px gray;
+    height:420px;
+    border-left:7px solid;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice:1;
+    background-color:white;
+}
+.experience-area2{
+    box-shadow:10px 10px 40px gray;
+    height:420px;
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+.exp-part{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;    
+}
+
+.work-photos{
+    margin-left: 382px;  
+}
+
+.work-photos img{
+    width:300px;
+
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+}
+.client{
+    text-align: center;
+}
+.client-react{
+    background-image: url("images/footer-bg.png");
+}
+.email-highlight{
+    color: white;
+    background-image: linear-gradient(45deg,pink,red);
+    width: 50%;
+    margin: 0 auto;
+    padding: 37px 22px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 46px;
+}
+.email-highlight a{
+    text-decoration: none;
+    color:white;
+}
+
